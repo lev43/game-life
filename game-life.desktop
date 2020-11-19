@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Игра "Жизнь"
+Comment=---
+Exec=~/my_programs/game_life
+Icon=~/my_programs/game_life.jpeg
+Terminal=false
+Type=Application
+Categories=game
