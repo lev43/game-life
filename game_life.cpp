@@ -131,7 +131,7 @@ int main(int argc, char *argv[]) {
 				int x=ceil(float(xev.xbutton.x)/(win_size-1)*size)-1, y=size-ceil(float(xev.xbutton.y)/(win_size-1)*size);
 				if(x==pX && y==pY)continue;
 				pX=x; pY=y;
-				dots[y][x]->setActive(xev.xmotion.state==272 || xev.xmotion.state==256 || xev.xmotion.state==258);
+				dots[y][x]->setActive(xev.xmotion.state==272 || xev.xmotion.state==256 || xev.xmotion.state==258 || xev.xmotion.state==8448 || xev.xmotion.state==8464);
 				dots[y][x]->updateActive();
 			}
 			if(xev.type==ButtonPress){
