@@ -124,7 +124,7 @@ int main(int argc, char *argv[]) {
 							dots[i][j]->setActive(false);
 							dots[i][j]->updateActive();
 						}
-				cout<<xev.xkey.keycode<<endl;
+				//cout<<xev.xkey.keycode<<endl;
 			}
 			if(xev.type==MotionNotify && pause){
 				//cout<<xev.xmotion.state<<endl;
