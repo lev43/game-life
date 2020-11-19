@@ -24,7 +24,6 @@ class Dot{
       this->x=x;
       this->y=y;
     };
-    void draw();
     void setActive(bool act);
     void updateActive();
     bool getActive();

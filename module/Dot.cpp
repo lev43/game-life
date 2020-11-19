@@ -8,9 +8,6 @@
 #include "colors.h"
 #include <iostream>
 
-void Dot::draw(){
-  Graphics gra;
-};
 void Dot::setActive(bool act){
   active=act;
 }

@@ -1,1 +1,1 @@
-./game || echo 'Error'
+./game_life
