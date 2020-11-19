@@ -24,6 +24,6 @@ void Dot::life(Dot *dots[size][size]){
 			if((j==0 && i==0) || (y+i>=size || y+i<0 || x+j>=size || x+j<0))continue;
   			if(dots[y+i][x+j]->getActive())neighbors++;
  			}
-	if(neighbors<2 || neighbors>3)setActive(false);
-  if(neighbors==3)setActive(true);
+	if(neighbors<3)setActive(false);
+  if(neighbors>2)setActive(true);
 }
